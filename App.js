@@ -1,14 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Platform } from 'react-native';
 // import Splashscreen from './assets/components/Splashscreen';
-// import Login from './assets/components/Login';
-// import CreateAccount from './assets/components/CreateAccount';
+import Login from './assets/components/Login';
+import CreateAccount from './assets/components/CreateAccount';
 
 // import MyModal from './assets/components/MyModal';
 
-// import UserDashboard from './assets/components/UserDashboard';
+import UserDashboard from './assets/components/UserDashboard';
 
-import Newscreen from './assets/components/Newscreen';
+// import Newscreen from './assets/components/Newscreen';
 
 export default function App() {
   return (
@@ -17,9 +17,9 @@ export default function App() {
       <StatusBar backgroundColor='#015AAC' barStyle="default" hidden={false}/>
       {/* <Login/> */}
       {/* <MyModal/> */}
-      {/* <CreateAccount/> */}
-      {/* <UserDashboard /> */}
-      <Newscreen/>
+      {/* <CreateAccount/>÷ */}
+       <UserDashboard />
+      {/* <Newscreen/> */}
     </View>
   );
 }

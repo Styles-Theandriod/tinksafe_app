@@ -2,7 +2,6 @@ import { StyleSheet, Text, View, TouchableOpacity} from 'react-native'
 import React from 'react'
 import { useFonts } from 'expo-font'
 
-import ABC from './ABC';
 
 
 
@@ -20,7 +19,6 @@ const Newscreen = () => {
       return (
         <View style={styles.container}>
           <Text style={styles.customText}>Hello, Expo Font!</Text>
-          <ABC childstyle={styles.customText}/>
         </View>
       );
     };
